@@ -9,10 +9,10 @@ from watson_developer_cloud import PersonalityInsightsV2 as PersonalityInsights
 import unicodedata
 
 def analyze(handle):
-    twitter_consumer_key = 'KbkK2ZR6ztGjdXEV8f5mDtPnt'
-    twitter_consumer_secret = 'jskCfNPfid93B3UIjueyxKCH9AcafU3BgcVLnEYgwIhnZDN2Pn'
-    twitter_access_token = '44017949-usl03eZ8zRVKI2cieLXzeYSKkvbPiwziMRet2qhYi'
-    twitter_access_secret = 'Mu1im6RpnUFf2p1Zi2m2ZL4cR2m06KvMqII6RTzNIRoAB'
+    twitter_consumer_key = 'secret'
+    twitter_consumer_secret = 'secret'
+    twitter_access_token = 'secret'
+    twitter_access_secret = 'secretB'
 
     twitter_api = twitter.Api(consumer_key=twitter_consumer_key, consumer_secret=twitter_consumer_secret, access_token_key=twitter_access_token, access_token_secret=twitter_access_secret)
 
