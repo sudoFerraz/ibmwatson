@@ -12,8 +12,7 @@ def main():
 	# Colocando as chaves
 	cfg = {"access_token" : "EAASFTIpmttABAHRhQNQuKw6RyEJLQZAvjIBePI2MrQNtalBGsMdHb10qy7DkJjya0RuA79EZC11JLIU11ZB9q8EsrJKQad6MVH94Bow18E8Up0k2ZCXYQeQ2xBTeHuhiUfHajQF5s28qsdDASXAzmahuEvXnQElgqjZA8I6hdogZDZD"}
 	api = get_api(cfg)
-	msg = "testing 2"
-	status = api.get_posts(msg)
+	status = api.get_posts()
 def get_api(cfg):
 	graph = facebook.GraphAPI(cfg['access_token'])
 	resp = graph.get_object('me')
