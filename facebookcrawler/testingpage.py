@@ -12,7 +12,7 @@ def main():
 	# Colocando as chaves
 	cfg = {"page_id"      : "407556572930758","access_token" : "EAASFTIpmttABAHRhQNQuKw6RyEJLQZAvjIBePI2MrQNtalBGsMdHb10qy7DkJjya0RuA79EZC11JLIU11ZB9q8EsrJKQad6MVH94Bow18E8Up0k2ZCXYQeQ2xBTeHuhiUfHajQF5s28qsdDASXAzmahuEvXnQElgqjZA8I6hdogZDZD"}
 	api = get_api(cfg)
-	msg = "Fuck Society testing 2"
+	msg = "testing 2"
 	status = api.put_wall_post(msg)
 def get_api(cfg):
 	graph = facebook.GraphAPI(cfg['access_token'])
